@@ -28,7 +28,7 @@ main{
 }
 
 h1{
-  color: #B92751;
+  color: #C12258;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -43,14 +43,14 @@ p{
 }
 
 a{
-  color: #72132E;
+  font-size: 16px;
+  color: #B21F50;
   text-decoration: wavy underline;
 }
 
 
 table{
   border: 2px solid #000000;
-  text-align: center;
   border-radius: 10px;
   margin: auto;
 
@@ -62,7 +62,7 @@ table{
   min-width: 125px;
   padding: 10px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
 }
 
@@ -70,21 +70,15 @@ table{
   border-color: #000000;
   border-right: 2px solid;
   border-top: 2px solid;
-  border: separate;
-
+  text-align: center;
+  padding: 10px;
 }
 
 
 td{
   text-align: center;
-  border-top-color: #000000;
-  border-top-width: 2px;
-  padding: 10px;
   border-top: 2px solid #000000;
-}
-tr:hover{
-  background-color: rgb(126, 8, 32,.25);
-  cursor: pointer
+  padding: 10px;
 }
 
 *:focus{
@@ -113,6 +107,10 @@ tr:nth-child(even){
   background-color: #d1d1d1;
 }
 
+tr:hover{
+  background-color: rgb(126, 8, 32,.25);
+}
+
 footer{
   width:100%;
   background:#000000;
@@ -121,5 +119,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
