@@ -67,9 +67,8 @@ table{
 }
 
 .rowhead{
-  border-color: #000000;
-  border-right: 2px solid;
-  border-top: 2px solid;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
   text-align: center;
   padding: 10px;
 }
@@ -83,8 +82,7 @@ td{
 
 *:focus{
   border-style: dashed;
-  border-width: 3px;
-  border-color: #417243;
+  border-width: 3px  #417243;
 }
 
 thead tr:first-child th:first-child{
